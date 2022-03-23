@@ -1,0 +1,14 @@
+@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+<h1>@ViewData["Title"]</h1>
+<div class="contact">
+    <form action="" class="form">
+        <input type="text" name="name" class="input" placeholder="Enter Your Name">
+        <input type="email" name="email" class="input" placeholder="Enter Your Email">
+        <textarea name="msg" class="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+        <input type="submit" value="SEND" id="send">
+    </form>
+</div>
